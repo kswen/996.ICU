@@ -7,7 +7,7 @@
 #### 大马路上扫地的叔叔阿姨们一天上班10几个小时，工资不及你们的一半，一个烟头罚几百，比起他们你算什么鸟???
 #### 记住，你永远比你想象的更强大，更耐操，一副臭皮囊嘛，没那么脆弱，不需要伺候都如此周到
 
-
+### FUCK FOLLOWING
 996.ICU
 =======
 The name `996.ICU` refers to **'Work by "996", sick in ICU'**, an ironic saying among Chinese programmers, which means that by following the "996" work schedule, you are risking yourself getting into the ICU (Intensive Care Unit).
