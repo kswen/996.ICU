@@ -1,8 +1,11 @@
+com/example/ocr/ColumnBasedOCRProcessor.class
 com/example/ocr/EnhancedImageOCRProcessor.class
 com/example/ocr/ImageOCRProcessor.class
 com/example/ocr/ImageOCRProcessor$OCRResult.class
 com/example/ocr/OCRDemo.class
+com/example/ocr/ColumnBasedOCRProcessor$ColumnResult.class
 com/example/ocr/ImageOCRProcessor$OCRConfig.class
+com/example/ocr/ColumnBasedOCRDemo.class
 com/example/ocr/EnhancedOCRDemo.class
 com/example/ocr/EnhancedImageOCRProcessor$ProcessingFunction.class
 com/example/ocr/EnhancedImageOCRProcessor$ProcessingStrategy.class
