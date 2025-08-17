@@ -33,7 +33,7 @@ public class ImageOCRProcessor {
     private static final Logger logger = LoggerFactory.getLogger(ImageOCRProcessor.class);
     
     protected ITesseract tesseract;
-    private boolean isOpenCVLoaded = false;
+    protected boolean isOpenCVLoaded = false;
     
     // Configuration parameters
     private double contrastAlpha = 1.5;  // Contrast enhancement factor
@@ -184,7 +184,7 @@ public class ImageOCRProcessor {
      * @param imagePath Path to the input image
      * @return Processed Mat object
      */
-    private Mat preprocessImageWithOpenCV(String imagePath) {
+    protected Mat preprocessImageWithOpenCV(String imagePath) {
         // Load image
         Mat originalImage = Imgcodecs.imread(imagePath);
         if (originalImage.empty()) {
@@ -230,7 +230,7 @@ public class ImageOCRProcessor {
      * @param mat OpenCV Mat object
      * @return BufferedImage for Tesseract processing
      */
-    private BufferedImage matToBufferedImage(Mat mat) {
+    protected BufferedImage matToBufferedImage(Mat mat) {
         MatOfByte matOfByte = new MatOfByte();
         Imgcodecs.imencode(".png", mat, matOfByte);
         byte[] byteArray = matOfByte.toArray();
